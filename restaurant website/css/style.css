@@ -29,9 +29,55 @@ body {
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
 
+main{
+  background-image: url('../img/food-restaurant.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover; 
+  padding: 20%;
 }
+
+
+header {
+  float: right;
+  margin-top: -30%;
+  margin-right: -20%;
+}
+
+header a{
+  margin-right: 12px;
+}
+
+main h1{
+  /* background: hsl(75, 10%, 75%); */
+  color: rgb(92, 0, 0);
+  border-radius: 30%;
+  font-size: 300%;
+  float: left;
+  margin-left: -20%;
+  margin-top: -20%;
+}
+
+h1>span{
+  display: block;
+}
+
+
+.searchBar{
+  margin-top: 12%;
+  margin-left: -19.5%;
+}
+
+.socialMedia{
+  margin-top: 8%;
+  margin-left: -19%;
+}
+
+.socialMedia img{
+  margin-right: 2%;
+}
+
 
 footer {
 
