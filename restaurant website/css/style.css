@@ -35,7 +35,7 @@ main{
   min-height: 100%;
   background-position: center;
   background-size: cover; 
-  padding: 20%;
+  padding: 10%;
 }
 
 
@@ -55,23 +55,23 @@ main h1{
   border-radius: 30%;
   font-size: 300%;
   float: left;
-  margin-left: -20%;
-  margin-top: -20%;
+  margin-left: -5%;
+  margin-top: -5%;
 }
 
 h1>span{
   display: block;
 }
 
-
 .searchBar{
-  margin-top: 12%;
-  margin-left: -19.5%;
+  margin-top: 20%;
+  margin-left: -5%;
+  
 }
 
 .socialMedia{
-  margin-top: 8%;
-  margin-left: -19%;
+  margin-top: 5%;
+  margin-left: -5%;
 }
 
 .socialMedia img{
@@ -79,9 +79,97 @@ h1>span{
 }
 
 
-footer {
+/* discover our restaurant section "about us" */
+
+.discoverRestaurant{
+  background-image: url('../img/italian-salad.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover; 
+  padding: 5%;
+ 
+}
+
+.aboutUs, 
+.discoverRestaurant h2,
+.discoverRestaurant p,
+.discoverMenu{
+  margin-left: 50%;
+}
+
+
+.aboutUs,
+.orderOnline span{
+  color: rgba(217, 94, 12, 0.691);
+  font-weight: bolder;
+  font-size: 120%;
 
 }
+
+.discoverRestaurant h2{
+  font-size: 300%;
+  margin-top: 1%;
+}
+
+
+.discoverRestaurant p{
+  text-align:justify;
+}
+
+
+.discoverMenu {
+  margin-top: 2vw;
+  background-color: #DAA521;
+  border: none;
+  width: 15vw;
+  height: 3vw;
+  font-size: 1.5vw;
+  color: #FFFFFF;
+  border-radius: 0.5vw;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+/* order now and menu section */
+
+.orderOnline{
+  padding: 20%;
+  background: rgb(222, 222, 222);  
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  word-break: break-word; 
+}
+
+.orderOnline span{
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -10em;
+  
+}
+
+.orderOnline h2{
+  font-size: 300%;
+  display:table;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.3em;
+}
+
+.menuListImages{
+  display: flex;
+  flex-direction: row;  
+  justify-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+  font-weight: bold;
+
+}
+
+
+
 
 /******************************************
 /* ADDITIONAL STYLES
